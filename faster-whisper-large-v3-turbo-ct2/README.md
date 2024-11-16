@@ -107,7 +107,7 @@ license: mit
 library_name: ctranslate2
 ---
 
-# Whisper large-v3 model for CTranslate2
+# Whisper large-v3 turbo model for CTranslate2
 
 This repository contains the conversion of [deepdml/whisper-large-v3-turbo](https://huggingface.co/deepdml/whisper-large-v3-turbo) to the [CTranslate2](https://github.com/OpenNMT/CTranslate2) model format.
 
@@ -118,7 +118,7 @@ This model can be used in CTranslate2 or projects based on CTranslate2 such as [
 ```python
 from faster_whisper import WhisperModel
 
-model = WhisperModel("faster-whisper-large-v3-turbo-ct2")
+model = WhisperModel("deepdml/faster-whisper-large-v3-turbo-ct2")
 
 segments, info = model.transcribe("audio.mp3")
 for segment in segments:
