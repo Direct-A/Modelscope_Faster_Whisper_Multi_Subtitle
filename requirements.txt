@@ -13,4 +13,4 @@ jieba
 funasr>=1.1.1
 ollama
 pysub-parser==1.7.0
-pyttsx3==2.90
+py3-tts
